@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+
+	<body>
+		<div class="calculator-grid">
+			<div class="output">
+			  <div data-previous-operand class="previous-operand"></div>
+			  <div data-current-operand class="current-operand"></div>
+			</div>
+			<button data-all-clear class="span-two1">AC</button>
+			<button data-change-negative class="tooltip">
+			  +/-
+			  <span class="tooltiptext"
+				></span
+			  >
+			</button>
+			<button  data-operation>÷</button>
+			<button class="one" data-number>1</button>
+			<button class="one" data-number>2</button>
+			<button class="one" data-number>3</button>
+			<button data-operation>*</button>
+			<button class="four" data-number>4</button>
+			<button class="four" data-number>5</button>
+			<button class="four" data-number>6</button>
+			<button  data-operation>+</button>
+			<button class="seven" data-number>7</button>
+			<button class="seven" data-number>8</button>
+			<button class="seven" data-number>9</button>
+			<button  data-operation>-</button>
+			<button  data-number>.</button>
+			<button class="zero" data-number>0</button>
+			<button data-equals class="span-two">=</button>
+		  </div>
+	
+		<script src="index.js"></script>
+	</body>
+</html>
